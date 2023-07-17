@@ -2407,7 +2407,7 @@ input, select, textarea {
 
 		.image.main {
 			display: block;
-			margin: 8em 8em 8em 2em;
+			margin: 4em 4em 4em 2em;
 			width: 100%;
 		}
 
@@ -2882,31 +2882,27 @@ input, select, textarea {
 		padding: 0;
 		list-style: none;
 	}
+			
 
 		.featuresx li {
-			width: calc(25% - 2em);
-			margin-left: 2em;
-			margin-top: 3em;
+			width: calc(24% - 1em );
+			margin-left: 1em;
+			margin-top: -50em;
 			padding: 0;
 		}
 
-			.featuresx li:nth-child(1), .featuresx li:nth-child(2), .featuresx li:nth-child(3), .featuresx li:nth-child(4) {
-				margin-top: -3em;
+			.featuresx li:nth-child(1), .featuresx li:nth-child(2), .featuresx li:nth-child(3), .featuresx li:nth-child(4), .featuresx li:nth-child(5) {
+				margin-top: -1em;
+				margin-bottom: 1em;
 			}
+			
 
-			.featuresx li > :last-child {
-				margin-bottom: 0;
-			}
 
 		@media screen and (max-width: 980px) {
 
 			.featuresx li {
 				width: calc(50% - 2em);
 			}
-
-				.featuresx li:nth-child(3) {
-					margin-top: 2em;
-				}
 
 		}
 
@@ -2923,8 +2919,8 @@ input, select, textarea {
 					margin-top: 1em;
 				}
 
-					.featuresx li:nth-child(2), .featuresx li:nth-child(3) {
-						margin-top: 2em;
+					.featuresx li:nth-child(1), .featuresx li:nth-child(2), .featuresx li:nth-child(3), .featuresx li:nth-child(4) {
+						margin-top: 0;
 					}
 
 		}

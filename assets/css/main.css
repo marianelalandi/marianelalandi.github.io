@@ -2888,6 +2888,7 @@ input, select, textarea {
 			width: calc(24% - 1em );
 			margin-left: 1em;
 			margin-top: -50em;
+			margin-bottom: 1em;
 			padding: 0;
 		}
 

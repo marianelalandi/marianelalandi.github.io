@@ -2800,7 +2800,7 @@ input, select, textarea {
   height: 500px;
   width: 100%;
   border-radius: 16px;
-  margin-bottom: 20px;
+  /*margin-bottom: 20px;*/
   border: 1px solid var(--jet);
   overflow: hidden;
 }
